@@ -1,0 +1,20 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-mongoose",
+      "settings": {
+        "client": "mongo",
+        "host": "ds247690.mlab.com",
+        "port": "47690",
+        "database": "the-artery-cms-dev",
+        "username": "jake-dev",
+        "password": "jake1234"
+      },
+      "options": {
+        "authenticationDatabase": "",
+        "ssl": false
+      }
+    }
+  }
+}
